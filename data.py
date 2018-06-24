@@ -19,7 +19,10 @@ create_product(nike, "Running Shoes", "Shoes for running.", 15)
 create_product(nike, "Style Shoes", "Stylish shoes.", 20)
 create_product(apple, "iPhone X", "256GB Space Gray", 310)
 create_product(apple, "iPhone 5s", "128GB Silver", 250)
-
+gant = Store("Gant")
+stores.append(gant)
+create_product(gant, "Short", "Grey Short", 18 )
+create_product(gant, "shoes", "black leather shoes", 105 )
 #############################################################################
 # To create a new store:
     # Create a new Store() object, and append it to the stores list.
